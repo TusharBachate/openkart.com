@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OpenkartSuite" class="navigator-link">
+              <span class="suite-name border-failed">OpenkartSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OpenkartSuite" class="navigator-link ">
+                    <span>C:\Users\Admin\eclipse-workspace revision1\openkart.com\Master.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OpenkartSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OpenkartSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OpenkartSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OpenkartSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OpenkartSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OpenkartSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OpenkartSuite" class="hide-methods failed suite-OpenkartSuite"> (hide)</a> <!-- hide-methods failed suite-OpenkartSuite -->
+                      <a href="#" panel-name="suite-OpenkartSuite" class="show-methods failed suite-OpenkartSuite"> (show)</a> <!-- show-methods failed suite-OpenkartSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-OpenkartSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpenkartSuite" title="testCases.TC_003_DDT" class="method navigator-link" hash-for-method="test_loignDDT(intestinvalid1@gmial..com, test@1234, invalid)">test_loignDDT(intestinvalid1@gmial..com, test@1234, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpenkartSuite" title="testCases.TC_003_DDT" class="method navigator-link" hash-for-method="test_loignDDT(lifeintest@gmail.com, test@345, invalid)">test_loignDDT(lifeintest@gmail.com, test@345, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpenkartSuite" title="testCases.TC_003_DDT" class="method navigator-link" hash-for-method="test_loignDDT(interestfree@gmail.com, test@567, invalid)">test_loignDDT(interestfree@gmail.com, test@567, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpenkartSuite" title="testCases.TC_003_DDT" class="method navigator-link" hash-for-method="test_loignDDT(pavanoltraning@gmail.com, test@123, valid)">test_loignDDT(pavanoltraning@gmail.com, test@123, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OpenkartSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OpenkartSuite" class="panel OpenkartSuite">
+          <div class="suite-OpenkartSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_003_DDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_loignDDT(intestinvalid1@gmial..com, test@1234, invalid)">
+                  </a> <!-- test_loignDDT(intestinvalid1@gmial..com, test@1234, invalid) -->
+                  <span class="method-name">test_loignDDT</span>
+                  <span class="parameters">(intestinvalid1@gmial..com, test@1234, invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.TC_003_DDT.test_loignDDT(TC_003_DDT.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_loignDDT(lifeintest@gmail.com, test@345, invalid)">
+                  </a> <!-- test_loignDDT(lifeintest@gmail.com, test@345, invalid) -->
+                  <span class="method-name">test_loignDDT</span>
+                  <span class="parameters">(lifeintest@gmail.com, test@345, invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.TC_003_DDT.test_loignDDT(TC_003_DDT.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_loignDDT(interestfree@gmail.com, test@567, invalid)">
+                  </a> <!-- test_loignDDT(interestfree@gmail.com, test@567, invalid) -->
+                  <span class="method-name">test_loignDDT</span>
+                  <span class="parameters">(interestfree@gmail.com, test@567, invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.TC_003_DDT.test_loignDDT(TC_003_DDT.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_loignDDT(pavanoltraning@gmail.com, test@123, valid)">
+                  </a> <!-- test_loignDDT(pavanoltraning@gmail.com, test@123, valid) -->
+                  <span class="method-name">test_loignDDT</span>
+                  <span class="parameters">(pavanoltraning@gmail.com, test@123, valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.TC_003_DDT.test_loignDDT(TC_003_DDT.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenkartSuite-class-failed -->
+        </div> <!-- panel OpenkartSuite -->
+        <div panel-name="test-xml-OpenkartSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace revision1\openkart.com\Master.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OpenkartSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OpenkartTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC_003_DDT&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OpenkartTest --&gt;
+&lt;/suite&gt; &lt;!-- OpenkartSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OpenkartSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OpenkartSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OpenkartTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OpenkartSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OpenkartSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OpenkartSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OpenkartSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OpenkartSuite');
+function tableData_OpenkartSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_loignDDT')
+data.setCell(0, 2, 'testCases.TC_003_DDT')
+data.setCell(0, 3, 924);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_loignDDT')
+data.setCell(1, 2, 'testCases.TC_003_DDT')
+data.setCell(1, 3, 829);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_loignDDT')
+data.setCell(2, 2, 'testCases.TC_003_DDT')
+data.setCell(2, 3, 570);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_loignDDT')
+data.setCell(3, 2, 'testCases.TC_003_DDT')
+data.setCell(3, 3, 537);
+window.suiteTableData['OpenkartSuite']= { tableData: data, tableDiv: 'times-div-OpenkartSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-OpenkartSuite">
+              </div> <!-- times-div-OpenkartSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OpenkartSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OpenkartSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OpenkartSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OpenkartSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_003_DDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_loignDDT(pavanoltraning@gmail.com, test@123, valid)</span>
+                <span class="method-start">12588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_loignDDT(intestinvalid1@gmial..com, test@1234, invalid)</span>
+                <span class="method-start">13954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_loignDDT(lifeintest@gmail.com, test@345, invalid)</span>
+                <span class="method-start">14677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_loignDDT(interestfree@gmail.com, test@567, invalid)</span>
+                <span class="method-start">15426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16547 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

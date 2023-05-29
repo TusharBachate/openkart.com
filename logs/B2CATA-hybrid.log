@@ -1,0 +1,31 @@
++2023-05-24 15:32:54 [main] INFO  TC_001_Account_Registration_Test:22 - **** Strarting TC_001_AccountRegistrationTest **** 
+2023-05-24 15:32:55 [main] INFO  TC_001_Account_Registration_Test:27 - CLICKED ON MY ACCOUNT 
+2023-05-24 15:32:55 [main] INFO  TC_001_Account_Registration_Test:31 - CLICKED ON REGISTER
+2023-05-24 15:32:55 [main] INFO  TC_001_Account_Registration_Test:35 - Providing customer data
+2023-05-24 15:33:05 [main] ERROR TC_001_Account_Registration_Test:66 - Test Failed
+2023-05-24 15:33:05 [main] INFO  TC_001_Account_Registration_Test:71 - **** Finished TC_001_AccountRegistrationTest **** 
+2023-05-24 19:57:26 [main] INFO  TC_001_Account_Registration_Test:21 - **** Strarting TC_001_AccountRegistrationTest **** 
+2023-05-24 19:57:26 [main] INFO  TC_001_Account_Registration_Test:26 - CLICKED ON MY ACCOUNT 
+2023-05-24 19:57:26 [main] INFO  TC_001_Account_Registration_Test:30 - CLICKED ON REGISTER
+2023-05-24 19:57:26 [main] INFO  TC_001_Account_Registration_Test:34 - Providing customer data
+2023-05-24 19:57:36 [main] ERROR TC_001_Account_Registration_Test:65 - Test Failed
+2023-05-24 19:57:36 [main] INFO  TC_001_Account_Registration_Test:70 - **** Finished TC_001_AccountRegistrationTest **** 
+2023-05-24 19:59:40 [main] INFO  TC_001_Account_Registration_Test:22 - **** Strarting TC_001_AccountRegistrationTest **** 
+2023-05-24 19:59:40 [main] INFO  TC_001_Account_Registration_Test:27 - CLICKED ON MY ACCOUNT 
+2023-05-24 19:59:40 [main] INFO  TC_001_Account_Registration_Test:31 - CLICKED ON REGISTER
+2023-05-24 19:59:40 [main] INFO  TC_001_Account_Registration_Test:35 - Providing customer data
+2023-05-24 19:59:50 [main] ERROR TC_001_Account_Registration_Test:66 - Test Failed
+2023-05-24 20:02:13 [main] INFO  TC_001_Account_Registration_Test:22 - **** Strarting TC_001_AccountRegistrationTest **** 
+2023-05-24 20:02:13 [main] INFO  TC_001_Account_Registration_Test:27 - CLICKED ON MY ACCOUNT 
+2023-05-24 20:02:13 [main] INFO  TC_001_Account_Registration_Test:31 - CLICKED ON REGISTER
+2023-05-24 20:02:13 [main] INFO  TC_001_Account_Registration_Test:35 - Providing customer data
+2023-05-24 20:02:23 [main] ERROR TC_001_Account_Registration_Test:66 - Test Failed
+2023-05-24 21:31:54 [main] INFO  TC_001_Account_Registration_Test:22 - **** Strarting TC_001_AccountRegistrationTest **** 
+2023-05-24 21:31:55 [main] INFO  TC_001_Account_Registration_Test:27 - CLICKED ON MY ACCOUNT 
+2023-05-24 21:31:55 [main] INFO  TC_001_Account_Registration_Test:31 - CLICKED ON REGISTER
+2023-05-24 21:31:55 [main] INFO  TC_001_Account_Registration_Test:35 - Providing customer data
+2023-05-24 21:31:58 [main] ERROR TC_001_Account_Registration_Test:66 - Test Failed
+2023-05-26 21:40:33 [main] INFO  TC_003_DDT:19 - **** Starting TC_003_LoginDDT **** 
+2023-05-26 21:40:34 [main] INFO  TC_003_DDT:19 - **** Starting TC_003_LoginDDT **** 
+2023-05-26 21:40:35 [main] INFO  TC_003_DDT:19 - **** Starting TC_003_LoginDDT **** 
+2023-05-26 21:40:36 [main] INFO  TC_003_DDT:19 - **** Starting TC_003_LoginDDT **** 
